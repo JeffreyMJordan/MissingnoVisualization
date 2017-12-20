@@ -39,14 +39,14 @@
 
 img.spooky {
   position: absolute;
-  left: 500px;
+  left: 350px;
   top: 82px;
 }
 
 img.mew {
   position: absolute;
   left: 200px;
-  top: 200px;
+  top: 100px;
   width: 250px;
 }
 
@@ -57,7 +57,7 @@ img.checker {
   width: 600px;
   overflow-y: hidden;
   z-index: -1;
-  transform: matrix3d(1,0,0.00,0,0.00,0.5,0.87,-0.001,0,-0.87,0.5,0,0,0,0,1);
+  transform: matrix3d(1,0,0.00,0,0.00,0.5,1,-0.001,0,-0.87,0.5,0,0,0,0,0.75);
 }
 
 img.ball {
