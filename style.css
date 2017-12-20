@@ -6,7 +6,7 @@
   position: absolute;
   min-height: 600px;
   z-index: 0;
-  background-image: url(https://i.redd.it/fejoqjhrhbpx.png);
+  background-image: url(https://pa1.narvii.com/6517/004b3ae0067a431ff636fbafd6992eb9cb0d6aeb_hq.gif);
   animation: animatedBackground 50s linear infinite,
              colorShift 5s linear infinite;
 }
@@ -39,7 +39,7 @@
 
 img.spooky {
   position: absolute;
-  left: 350px;
+  left: 410px;
   top: 82px;
 }
 
@@ -77,6 +77,13 @@ img.ballrev {
   right: -100px;
   top: 100px;
   /* animation: hueRotate 5s linear infinite; */
+}
+
+img.spookyrev {
+  transform: scaleX(-1);
+  position: absolute;
+  left: 100px;
+  top: 82px;
 }
 
 @keyframes animatedBackground {
